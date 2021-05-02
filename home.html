@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Home</title>
+    <link href="s1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container1">
+            <header class="header">
+                <h1>Campus Recruitment System</h1>
+            </header>
+            <section>
+            <nav class="nav">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="">JOBS</a></li>
+                    <li><a href="">REGISTER</a></li>
+                    <li><a href="">ADMIN LOGIN</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <hr class="line">
+            <article class="section">
+                <img src="1.jpeg" width="575" height="383">
+                <p>Complete solution for managing vacancies,placements,colleges and students. Placements and job management previously a cumbersome procedure now made easy. All major functionalities now available at your fingertips with clever integration and management.</p>
+            </article>
+            </section>
+    </div>
+    <hr class="line">
+
+    <div class="container2">
+
+        <nav class="news">
+            <h3 style="text-align: center;">NEWS</h3>
+            <p1>News about upcoming companies and drives</p1>
+        </nav>
+
+        <nav class="events">
+            <h3 style="text-align: center;">EVENTS</h3>
+            <p1>Information about events taking place currently.</p1>
+        </nav>
+
+        <img src="2.jpeg" width="600" height="250">
+    </div>
+    <hr class="line">
+
+    <footer class="footer">
+        <h3>© 2021 CVRCOE, All Rights Reserved</h3>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+<script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
